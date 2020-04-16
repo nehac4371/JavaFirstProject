@@ -1,3 +1,3 @@
 # PS Assignments
-Assignment-1 : Git, Maven, Jenkins
-\nAssignment-2 : UML, PostgreSQL,MongoDB
+Assignment-1 : Git, Maven, Jenkins<br/>
+Assignment-2 : UML, PostgreSQL,MongoDB
