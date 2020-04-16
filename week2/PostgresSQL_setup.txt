@@ -1,0 +1,27 @@
+1. create database
+postgres=# create database PJPpractice;
+
+2. list of databases
+postgres=# \l
+
+3. connect to database
+postgres=# \c pjppractice
+
+4. show tables
+pjppractice=# \dt
+
+5. create table test
+create table test(id integer primary key,fname varchar(30) not null);
+
+6. add column
+ alter table test add column laname varchar(50);
+
+7. change column name
+pjppractice=# alter table test rename column laname to last_name;
+
+8. drop a column
+pjppractice=# alter table test drop column last_name;
+
+9. rename table
+ alter table test rename to test1;
+
