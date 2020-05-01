@@ -36,11 +36,11 @@ public class Demo{
 		System.out.println("Enter Number2:");
 		int num2 = Reader.sc.nextInt();
 		
-		System.out.println("Enter the operation:");
-		String str = Reader.sc.next();
+		System.out.println("Enter the operation Number:");
+		int operation_number = Reader.sc.nextInt();
 		
-		//operations.stream()
-		//.filter().orElse();
+		operations.get(operation_number - 1).calculate(num1,num2);
+		
 		
 		
 		
