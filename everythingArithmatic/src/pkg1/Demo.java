@@ -42,8 +42,6 @@ public class Demo{
 		operations.get(operation_number - 1).calculate(num1,num2);
 		
 		
-		
-		
 	}
 
 	
